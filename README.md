@@ -103,6 +103,8 @@ Model performance was evaluated using:
 
 ## 📈 Model Performance
 
+![Model Performance Comparison](model_comparison.png)
+
 The final hold-out test-set comparison produced the following results:
 
 | Model                   |   Test R² |        Test MAE |
@@ -124,13 +126,14 @@ An important finding from the comparison is that the more complex boosting model
 
 ## 🧠 Model Explainability
 
+![SHAP Feature Importance](shap_summary.png)
+
 SHAP was used to improve model interpretability and understand how important features contribute to predictions.
 
 The analysis helps identify the vehicle characteristics that have the strongest influence on predicted prices.
 
 The repository includes the generated SHAP summary visualization:
 
-**[`shap_summary.png`](shap_summary.png)**
 
 ---
 
